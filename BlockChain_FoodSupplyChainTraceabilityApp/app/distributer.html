@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <script src="./app.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body class="bg-success">
+  <div class="mt-4 ml-4 mr-4 mb-4">
+  <div class="card col-sm-12">
+        <h3 class="text-center mt-4"><strong class="text-success">Distributer</strong></h3>
+    <!--Card content-->
+    <div class="card-body px-lg-5">
+        <!-- Form -->
+      <form>
+       <br> <label>Distributer Name:</label> <input type="text" id="DistributerName" class="form-control" placeholder="Enter name"></input>
+       <br> <label>Collected date:</label> <input type="text" id="DcollectedDate" class="form-control" placeholder="Enter collected date"></input>
+       <br> <label>Delivered to:</label> <input type="text" id="DdeliveredTo" class="form-control" placeholder="Enter delivered person"></input>
+       <br> <label>Method of transportation:</label> <input type="text" id="Dtransportation" class="form-control" placeholder="Enter transportation method"></input>
+       <br> <label>Packing method:</label> <input type="text" id="Dpacking" class="form-control" placeholder="Enter packing method"></input>
+       <br> <br>
+       <div class="text-center">
+       <button id="addNewLocation" onclick="App.addNewLocation()" class="btn btn-success btn-round">Add New Location</button><br><br>
+      </div>
+      </form>
+   </div>
+  </div>
+</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+chrome matamask3.2.5 .nodejs vscode
+chocolatry...,choco windowstool, git
+git config --system http.sslverify false 
+npm install -g node-gyp 
+npm install --global --production windows-build-tools 
+npm install -g ethereumjs-testrpc
+npm install -g truffle
+
+
+//
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+168 packages can be updated.
+84 updates are security updates.
+
+
+*** System restart required ***
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in t
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitte
+applicable law.
+
+getadmin@tx-bclu6m-reg1000000:~$ geth attach
+Welcome to the Geth JavaScript console!
+
+instance: Geth/tx-bclu6m-reg1000000/v1.8.11-stable-dea1ce05/linu
+coinbase: 0xb0d084bd53efbae27715042918fe8f119a9d14a9
+at block: 2234 (Thu, 09 Aug 2018 20:15:52 UTC)
+ datadir: /home/getadmin/.ethereum
+ modules: admin:1.0 debug:1.0 eth:1.0 miner:1.0 net:1.0 personal
+
+> personal.unlockAccount(eth.coinbase)
+Unlock account 0xb0d084bd53efbae27715042918fe8f119a9d14a9
+Passphrase:
+Error: could not decrypt key with given passphrase
+> personal.unlockAccount(eth.coinbase)
+Unlock account 0xb0d084bd53efbae27715042918fe8f119a9d14a9
+Passphrase:
+true
+>
+
