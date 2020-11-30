@@ -32,13 +32,13 @@ getadmin@tx-bclu6m-reg1000000:~$ geth attach
 Welcome to the Geth JavaScript console!
 
 instance: Geth/tx-bclu6m-reg1000000/v1.8.11-stable-dea1ce05/linu
-coinbase: 0xb0d084bd53efbae27715042918fe8f119a9d14a9
+coinbase: 
 at block: 2234 (Thu, 09 Aug 2018 20:15:52 UTC)
  datadir: /home/getadmin/.ethereum
  modules: admin:1.0 debug:1.0 eth:1.0 miner:1.0 net:1.0 personal
 
 > personal.unlockAccount(eth.coinbase)
-Unlock account 0xb0d084bd53efbae27715042918fe8f119a9d14a9
+Unlock account 
 Passphrase:
 Error: could not decrypt key with given passphrase
 > personal.unlockAccount(eth.coinbase)
